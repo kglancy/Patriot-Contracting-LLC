@@ -1,0 +1,51 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #2F2F2F;
+    background-color: #FFFFFF;
+}
+header {
+    background-color: #1A2F6E;
+    padding: 1rem 2rem;
+    color: white;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    height: 60px;
+}
+nav a {
+    color: white;
+    margin-left: 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    background-color: #F3F3F3;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+.hero h1 {
+    color: #1A2F6E;
+    font-size: 2.5rem;
+}
+.hero p {
+    font-size: 1.2rem;
+    color: #2F2F2F;
+}
+.section {
+    padding: 3rem 2rem;
+}
+.section.light {
+    background-color: #F3F3F3;
+}
+footer {
+    background-color: #1A2F6E;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
